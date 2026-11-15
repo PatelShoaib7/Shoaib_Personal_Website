@@ -1,0 +1,7 @@
+export enum SkillGroupEnum {
+  ALL = 'ALL',
+  FRONTEND = 'FRONTEND',
+  BACKEND = 'BACKEND',
+  INFRASTRUCTURE = 'INFRASTRUCTURE',
+  AI_TOOLS = 'AI_TOOLS',
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoaib Patel — Senior Software Engineer</title>
+    <meta
+      name="description"
+      content="Shoaib Patel — Senior Software Engineer (Full-Stack MERN, Cloud & Applied AI) with 5+ years of experience building scalable React, TypeScript, Node.js, NestJS, and MongoDB systems."
+    />
+    <meta
+      name="keywords"
+      content="Shoaib Patel, Senior Software Engineer, MERN Stack, React, TypeScript, Node.js, NestJS, MongoDB, Redis, Docker, Kubernetes, AWS, Applied AI"
+    />
+    <meta name="author" content="Shoaib Patel" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('sp_portfolio_theme');
+          var prefersDark =
+            window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'DARK' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-white text-zinc-900 antialiased selection:bg-zinc-200 selection:text-zinc-900 dark:bg-[#09090B] dark:text-zinc-100 dark:selection:bg-zinc-800 dark:selection:text-zinc-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
